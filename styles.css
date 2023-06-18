@@ -1,0 +1,31 @@
+section{
+    display: flex;
+    width: 800px;
+    height: 630;
+}
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    transition: .2s ease;
+}
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+html{
+    background-color: black;
+}
+h1{
+    color: aliceblue;
+    font-family: Arial, sans-serif; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    animation: letrero 1s linear infinite;
+}
+h1{
+  color: rgb(215, 231, 245);
+  font-family: "Yeseva One", sans-serif;
+}
